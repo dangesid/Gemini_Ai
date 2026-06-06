@@ -1,0 +1,54 @@
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+
+# python
+__pycache__/
+*.pyc
+
+# venv
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# mac
+.DS_Store
+
+# database
+*.db
+
+# embeddings
+data/embeddings/
+
+# qdrant
+qdrant_storage/
+
+# postgres
+postgres_data/
+
+# redis
+redis_data/
+
+# ollama
+ollama_models/
+
+# node
+node_modules/
+
+# next
+.next/
+
+# testing
+.pytest_cache/
+
+# temp
+tmp/
+temp/
